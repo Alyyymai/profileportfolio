@@ -8040,3 +8040,31 @@ a.text-dark:hover {
 .invisible {
     visibility: hidden!important
 }
+  /*Style for title and description for UIUX Project*/
+  .cc-uiux a{
+    color: black;
+    font-size: 20px;
+  }
+  .cc-uiux a:hover{
+    color:black;
+  }
+  .cc-uiux p{
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .cc-uiux img{
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    width:100%;
+  }
+  .col-sm-9 p{
+    margin-top: 20px;
+  }
+  .col-sm-6 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+  }
