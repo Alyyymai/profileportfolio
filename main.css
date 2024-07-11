@@ -5043,7 +5043,9 @@ Created using IcoMoon - icomoon.io
 .gallery figure.cc-effect figcaption::after {
   position: absolute;
   content: '';
-  opacity: 0; }
+  opacity: 0; 
+  text-align: center;
+}
 
 .gallery figure.cc-effect figcaption::before {
   top: 10px;
@@ -5051,7 +5053,7 @@ Created using IcoMoon - icomoon.io
   bottom: 10px;
   left: 10px;
   transform: scale(0, 0);
-  transform-origin: 0 0; }
+  transform-origin:  0; }
 
 .gallery figure.cc-effect figcaption::after {
   top: 10px;
@@ -5092,7 +5094,7 @@ Created using IcoMoon - icomoon.io
 .gallery figure.cc-effect p {
   transition: opacity 0.35s, transform 0.35s; }
 
-.gallery figure.cc-effect:hover img {
+.gallery:hover img {
   opacity: 1;
   transform: translate3d(0, 0, 0); }
 
@@ -5109,7 +5111,7 @@ Created using IcoMoon - icomoon.io
 .gallery figure.cc-effect:hover button {
   opacity: 1;
   transform: translate3d(0, 0, 0);
-  color: #fff; }
+  color: #ffffff; }
 
 .gallery figure.cc-effect:hover figcaption::after,
 .gallery figure.cc-effect:hover .h4,
@@ -5319,3 +5321,4 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0; }
+
